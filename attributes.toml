@@ -1,0 +1,53 @@
+[[classes]]
+base = "Hacker"
+subclasses = ["Biohacker", "Cyberpunk", "Hacker", "Netrunner", "Technomancer"]
+armor_types = ["street cloths", "visible implants", "cyberware"]
+
+[[classes]]
+base = "Mage"
+subclasses = ["Techno Mage", "Shaman", "Mystic", "Witch"]
+armor_types = ["street cloths", "hooded robes", "tribal garb"]
+
+
+[[classes]]
+base = "Monk"
+subclasses = ["Monk", "Ninja", "Samurai"]
+armor_types = ["street cloths", "light armor"]
+
+[[classes]]
+base = "Theif"
+subclasses = ["Assassin", "Master Thief", "Rogue", "Spy"]
+armor_types = ["street cloths", "light armor", "ninjitsu garb"]
+
+
+[[classes]]
+base = "Warrior"
+subclasses = ["Thug", "Brawler", "Crime Lord", "samuraii"]
+armor_types = ["heavy street cloths", "cybernetic armor"]
+
+[[classes]]
+base = "Healer"
+subclasses = ["Ripper Doc", "Medic", "Priest"]
+armor_types = ["lab coat", "street cloths", "visible implants", "cyberware"]
+
+[[classes]]
+base = "Engeineer"
+subclasses = ["Mechanic", "Engineer", "Tinker", "fixer"]
+armor_types = ["mechanic overalls", "street cloths", "visible implants", "cyberware"]
+
+[physical_attributes]
+gender = ["male", "female", "androgynous"]
+physique = ["skinny", "slim", "average", "muscular", "plump", "fat"]
+hair_style = ["bald", "short {color} hair", "medium {color} hair", "long {color} hair", "a {color} ponytail", "{color} braids", "{color} dreadlocks", "a {color} mohawk", "a {color} afro"]
+hair_color = ["blonde", "brown", "black", "blue", "purple", "green", "orange", "red", "white", "grey", "silver", "gold", "rainbow"]
+ethnicity = ["white", "black", "asian", "hispanic", "indian", "middle eastern", "native american", "pacific islander", "mixed"]
+
+[prompt]
+style = "(cyberpunk:1) inspired, detailed portrait, dark atmosphere, volumetric lights, cell shaded, 4 k, concept art, extremely detailed, digital painting, artstation, concept art, sharp focus, illustration, art by wlop, artgerm and greg rutkowski and alphonse mucha"
+
+[image_attributes]
+height = 640
+width = 512
+seed = 0
+steps = 50
+guidance_scale = 7.5
